@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BaseClasses - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Family\LOCALS~1\Temp\RSP114.tmp" with contents
+[
+/nologo /Gz /MTd /W3 /Gm /Gi /GX /Zi /Od /I "." /I "..\..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_WIN32_DCOM" /D "DEBUG" /D WINVER=0x400 /Fp"Debug/baseclasses.pch" /Yu"streams.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\amextra.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\amfilter.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\amvideo.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\combase.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\cprop.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\ctlutil.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\ddmm.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\dllsetup.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\mtype.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\outputq.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\pstream.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\pullpin.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\refclock.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\renbase.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\schedule.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\seekpt.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\source.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\strmctl.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\sysclock.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\transfrm.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\transip.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\videoctl.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\vtrans.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\winctrl.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\winutil.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\wxdebug.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\wxlist.cpp"
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\wxutil.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Family\LOCALS~1\Temp\RSP114.tmp" 
+Creating temporary file "C:\DOCUME~1\Family\LOCALS~1\Temp\RSP115.tmp" with contents
+[
+/nologo /Gz /MTd /W3 /Gm /Gi /GX /Zi /Od /I "." /I "..\..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_WIN32_DCOM" /D "DEBUG" /D WINVER=0x400 /Fp"Debug/baseclasses.pch" /Yc"streams.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Family\Desktop\Books\AnimBook\BookCode\BaseClasses\dllentry.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Family\LOCALS~1\Temp\RSP115.tmp" 
+Creating temporary file "C:\DOCUME~1\Family\LOCALS~1\Temp\RSP116.tmp" with contents
+[
+strmiids.lib /nologo /out:"debug\strmbasd.lib" /nodefaultlib 
+".\Debug\amextra.obj"
+".\Debug\amfilter.obj"
+".\Debug\amvideo.obj"
+".\Debug\combase.obj"
+".\Debug\cprop.obj"
+".\Debug\ctlutil.obj"
+".\Debug\ddmm.obj"
+".\Debug\dllentry.obj"
+".\Debug\dllsetup.obj"
+".\Debug\mtype.obj"
+".\Debug\outputq.obj"
+".\Debug\pstream.obj"
+".\Debug\pullpin.obj"
+".\Debug\refclock.obj"
+".\Debug\renbase.obj"
+".\Debug\schedule.obj"
+".\Debug\seekpt.obj"
+".\Debug\source.obj"
+".\Debug\strmctl.obj"
+".\Debug\sysclock.obj"
+".\Debug\transfrm.obj"
+".\Debug\transip.obj"
+".\Debug\videoctl.obj"
+".\Debug\vtrans.obj"
+".\Debug\winctrl.obj"
+".\Debug\winutil.obj"
+".\Debug\wxdebug.obj"
+".\Debug\wxlist.obj"
+".\Debug\wxutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Family\LOCALS~1\Temp\RSP116.tmp"
+<h3>Output Window</h3>
+Compiling...
+dllentry.cpp
+Compiling...
+amextra.cpp
+amfilter.cpp
+amvideo.cpp
+combase.cpp
+cprop.cpp
+ctlutil.cpp
+ddmm.cpp
+dllsetup.cpp
+mtype.cpp
+outputq.cpp
+pstream.cpp
+pullpin.cpp
+refclock.cpp
+renbase.cpp
+schedule.cpp
+seekpt.cpp
+source.cpp
+strmctl.cpp
+sysclock.cpp
+transfrm.cpp
+Generating Code...
+Compiling...
+transip.cpp
+videoctl.cpp
+vtrans.cpp
+winctrl.cpp
+winutil.cpp
+wxdebug.cpp
+wxlist.cpp
+wxutil.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+strmbasd.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
